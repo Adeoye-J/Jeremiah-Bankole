@@ -16,8 +16,8 @@ const Hero = () => {
             </div>
 
             <div className="action flex">
-              <h2>Interested in my projects rightaway?</h2>
-              <button>Check them out here!</button>
+              <h2>Interested in my projects right away?</h2>
+              <button>Explore Them Here...</button>
             </div>
 
             <div className="contact-link flex">
