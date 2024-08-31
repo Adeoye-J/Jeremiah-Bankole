@@ -50,6 +50,7 @@
     display: none;
   }
   .navbar-container .navbar-content .mobile-container {
+    z-index: 30;
     display: block;
     position: absolute;
     top: 0;

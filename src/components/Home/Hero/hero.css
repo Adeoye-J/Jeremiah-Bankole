@@ -49,6 +49,8 @@
 .hero-container .hero-content .text-section .action h2 {
   font-size: 1.2rem;
   text-align: center;
+  font-style: italic;
+  color: blue;
 }
 .hero-container .hero-content .text-section .action button {
   padding-inline: 1rem;
