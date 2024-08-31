@@ -1,0 +1,102 @@
+.navbar-container {
+  justify-content: center;
+  padding-inline: 1rem;
+  width: 100%;
+}
+.navbar-container .navbar-content {
+  background-color: darkblue;
+  color: #fff;
+  padding-inline: 1rem;
+  width: 95%;
+  justify-content: space-between;
+  height: 70px;
+}
+.navbar-container .navbar-content .logo h1 {
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.navbar-container .navbar-content .menu-container .list-items {
+  gap: 1.4rem;
+}
+.navbar-container .navbar-content .menu-container .list-items li {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  transition: all ease 0.5s;
+}
+.navbar-container .navbar-content .menu-container .list-items li:hover {
+  border-bottom: 1px solid #fff;
+}
+.navbar-container .navbar-content .menu-container .list-items .underline {
+  border-bottom: 2px solid #fff;
+}
+.navbar-container .navbar-content .mobile-container {
+  display: none;
+}
+.navbar-container .navbar-content .icon-con {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .navbar-container {
+    padding: 0;
+  }
+  .navbar-container .navbar-content {
+    width: 100%;
+    position: relative;
+  }
+  .navbar-container .navbar-content .menu-container {
+    display: none;
+  }
+  .navbar-container .navbar-content .mobile-container {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    position: fixed;
+    width: 240px;
+    height: 100vh;
+    padding-top: 70px;
+    background-color: darkblue;
+    border-left: 1px solid #fff;
+  }
+  .navbar-container .navbar-content .mobile-container .list-items {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+  }
+  .navbar-container .navbar-content .mobile-container .list-items .list-item {
+    width: 100%;
+  }
+  .navbar-container .navbar-content .mobile-container .list-items li {
+    font-size: 1.2rem;
+    border-bottom: 1px solid #fff;
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+    padding-block: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    transition: all ease 0.5s;
+  }
+  .navbar-container .navbar-content .mobile-container .list-items li:hover {
+    background-color: #fff;
+    color: blue;
+  }
+  .navbar-container .navbar-content .mobile-container .icon-con {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .navbar-container .navbar-content .mobile-container .icon-con .icon {
+    transition: all ease 0.5s;
+  }
+  .navbar-container .navbar-content .mobile-container .icon-con .icon:hover {
+    transform: rotate(90deg);
+  }
+  .navbar-container .navbar-content .icon-con {
+    display: block;
+  }
+}/*# sourceMappingURL=navBar.css.map */

@@ -1,0 +1,128 @@
+.navbar-container {
+    justify-content: center;
+    padding-inline: 1rem;
+    width: 100%;
+
+    .navbar-content {
+        background-color: darkblue;
+        color: #fff;
+        padding-inline: 1rem;
+        width: 95%;
+
+        justify-content: space-between;
+        height: 70px;
+
+        .logo {
+
+            h1 {
+                font-size: 2rem;
+                cursor: pointer;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+        }
+
+        .menu-container {
+
+            .list-items {
+                gap: 1.4rem;
+
+                li {
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    color: #fff;
+                    transition: all ease .5s;
+
+                    &:hover {
+                        border-bottom: 1px solid #fff;
+                    }
+                }
+
+                .underline {
+                    border-bottom: 2px solid #fff;
+                }
+            }
+        }
+
+        .mobile-container {
+            display: none;
+        }
+
+        .icon-con {
+            display: none;
+        }
+    }
+
+}
+@media screen and (max-width: 650px) {
+    .navbar-container {
+        padding: 0;
+
+        .navbar-content {
+            width: 100%;
+            position: relative;
+
+            .menu-container {
+                display: none;
+            }
+    
+            .mobile-container {
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100vh;
+                position: fixed;
+                width: 240px;
+                height: 100vh;
+                // padding-block: 3rem;
+                padding-top: 70px;
+                background-color: darkblue;
+                border-left: 1px solid #fff;
+    
+                .list-items {
+                    flex-direction: column;
+                    width: 100%;
+                    gap: 0;
+
+                    .list-item {
+                        width: 100%;
+                    }
+    
+                    li {
+                        font-size: 1.2rem;
+                        border-bottom: 1px solid #fff;
+                        font-weight: 600;
+                        color: #fff;
+                        width: 100%;
+                        padding-block: 1rem;
+                        font-size: 1.3rem;
+                        text-align: center;
+                        transition: all ease .5s;
+
+                        &:hover {
+                            background-color: #fff;
+                            color: blue;
+                        }
+                    }
+                }
+
+                .icon-con {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+
+                    .icon {
+                        transition: all ease .5s;
+                        &:hover {
+                            transform: rotate(90deg);
+                        }
+                    }
+                }
+            }
+
+            .icon-con {
+                display: block;
+            }
+        }
+    }
+}
