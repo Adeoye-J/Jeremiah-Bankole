@@ -11,8 +11,8 @@ const Menu = ({selectedMenu, setSelectedMenu}) => {
 
     return(
         <ul className='list-items flex'>
-            <Link className='list-item' to={"/"}><li className={`${selectedMenu === "About Me" && "underline"}`} onClick={() => handleClick("About Me")}>About Me</li></Link>
-            <Link className='list-item' to={"/"}><li className={`${selectedMenu === "Skills" && "underline"}`} onClick={() => handleClick("Skills")}>Skills</li></Link>
+            <Link className='list-item' to={"/home"}><li className={`${selectedMenu === "About Me" && "underline"}`} onClick={() => handleClick("About Me")}>About Me</li></Link>
+            <Link className='list-item' to={"/skills"}><li className={`${selectedMenu === "Skills" && "underline"}`} onClick={() => handleClick("Skills")}>Skills</li></Link>
             <Link className='list-item' to={"/"}><li className={`${selectedMenu === "Projects" && "underline"}`} onClick={() => handleClick("Projects")}>Projects</li></Link>
             <Link className='list-item' to={"/"}><li className={`${selectedMenu === "Contact Me" && "underline"}`} onClick={() => handleClick("Contact Me")}>Contact Me</li></Link>
         </ul>
