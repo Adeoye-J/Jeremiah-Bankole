@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import "./skills.css"
+import {FaHtml5, FaCss3, FaReact, FaBootstrap, FaGithub} from "react-icons/fa"
 
 const Skills = () => {
 
-  const [selectedSkill, setSelectedSkill] = useState("")
+  const [selectedSkill, setSelectedSkill] = useState("potential")
 
   return (
     <div className='skills-container flex'>
@@ -15,37 +16,36 @@ const Skills = () => {
           </div>
 
           <div className="image-section">
-            {/* <img src="/images/Jeremiah_Bankole (2).png" alt="Jeremiah" /> */}
-            <img src="/images/Jeremiah.png" alt="Jeremiah" />
+            <img src="/images/Bankole.png" alt="Jeremiah" />
           </div>
         </div>
         <div className="skills-details flex">
           <ul className="skills-title flex">
-            <li className={`flex ${selectedSkill === "random" && "chosen-skill"}`} onClick={() => setSelectedSkill("random")}>A Random Person</li>
             <li className={`flex ${selectedSkill === "potential" && "chosen-skill"}`} onClick={() => setSelectedSkill("potential")}>A Potential Employer</li>
+            <li className={`flex ${selectedSkill === "random" && "chosen-skill"}`} onClick={() => setSelectedSkill("random")}>A Random Person</li>
           </ul>
           {
             selectedSkill === "random" && 
-            <div className='skills'>
-              Computer Skills (5yrs+) - Word, Excel, Powerpoint, etc
-              Writing (4yrs+) - Standard and Professional
-              Tutor (4yrs+) - STEM Courses
-              Communication 
-            </div>
+            <ul className='skills flex'>
+              <li>Computer Skills (5yrs+) - Word, Excel, Powerpoint, etc</li>
+              <li>Writing (4yrs+) - Standard and Professional</li>
+              <li>Tutoring (4yrs+) - STEM Courses</li>
+              <li>Communication Skills</li>
+            </ul>
           }
           {
             selectedSkill === "potential" && 
-            <div className='skills'>
-              Front End Web Development (Dominant)- 
-              HTML (4yrs +)
-              CSS (3yrs +)
-              JavaScript (2yrs +)
-              Tailwind (1yr +)
-              Bootstrap (1yr +)
-              API (1yr +)
-              React (1yr +)
-              Git/Github (3yrs +)
-            </div>
+            <ul className='skills flex'>
+              {/* <li>Front End Web Development (Dominant)- </li> */}
+              <li>HTML (4yrs +) <FaHtml5 /></li>
+              <li>CSS (3yrs +) <FaCss3 /></li>
+              <li>JavaScript (2yrs +) <FaHtml5 /></li>
+              <li>Tailwind (1yr +) <FaHtml5 /></li>
+              <li>Bootstrap (1yr +) <FaBootstrap /></li>
+              <li>API (1yr +) <FaHtml5 /></li>
+              <li>React (1yr +) <FaReact /></li>
+              <li>Git/Github (3yrs +) <FaGithub /></li>
+            </ul>
           }
         </div>
 

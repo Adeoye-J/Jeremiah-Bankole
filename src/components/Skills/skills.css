@@ -25,6 +25,12 @@
   font-size: 3.2rem;
   color: #fff;
 }
+@media screen and (max-width: 950px) {
+  .skills-container .skills-content .skills-hero .skills-heading h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
 .skills-container .skills-content .skills-hero .skills-heading p {
   font-size: 1.5rem;
   font-style: italic;
@@ -43,6 +49,19 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media screen and (max-width: 900px) {
+  .skills-container .skills-content .skills-hero {
+    flex-direction: column;
+  }
+  .skills-container .skills-content .skills-hero .skills-heading {
+    order: 2;
+  }
+  .skills-container .skills-content .skills-hero .image-section {
+    order: 1;
+    width: 300px;
+    height: 300px;
+  }
 }
 .skills-container .skills-content .skills-details {
   flex-direction: column;
@@ -66,4 +85,27 @@
 }
 .skills-container .skills-content .skills-details .skills-title .chosen-skill {
   background-color: blue;
+}
+@media screen and (max-width: 400px) {
+  .skills-container .skills-content .skills-details .skills-title {
+    flex-direction: column;
+  }
+}
+.skills-container .skills-content .skills-details .skills {
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.skills-container .skills-content .skills-details .skills li {
+  font-weight: 600;
+  color: #fff;
+  padding: 1rem;
+  min-height: 40px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-width: 200px;
+  text-align: center;
 }/*# sourceMappingURL=skills.css.map */
