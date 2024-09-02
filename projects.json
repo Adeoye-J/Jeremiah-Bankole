@@ -1,0 +1,55 @@
+{
+    "beginners": [
+        {
+            "title" : "Calculator",
+            "demo_link": "https://adeoye-j.github.io/calculator/",
+            "repository_link": "https://github.com/Adeoye-J/calculator",
+            "cover_image": "/images/Jeremiah_Bankole_Calculator_app_Edited.png"
+        },
+        {
+            "title" : "Budget Tracker",
+            "demo_link": "https://adeoye-j.github.io/budget_tracker/",
+            "repository_link": "https://github.com/Adeoye-J/budget_tracker",
+            "cover_image": "/images/Personal_Budget_Tracker_Edited.png"
+        },
+        {
+            "title" : "Access Bank Landing Page",
+            "demo_link": "https://adeoye-j.github.io/accessbank.com/",
+            "repository_link": "https://github.com/Adeoye-J/accessbank.com",
+            "cover_image": "/images/Access_Bank_Site_Edited.png"
+        },
+        {
+            "title" : "EasyBank Landing Page",
+            "demo_link": "https://easybank-nu-three.vercel.app/",
+            "repository_link": "https://github.com/Adeoye-J/easybank",
+            "cover_image": "/images/EasyBank_Edited.png"
+        }
+    ],
+
+    "intermediate": [
+        {
+            "title" : "Countries API",
+            "demo_link": "https://adeoye-j.github.io/rest_countries_api/",
+            "repository_link": "https://github.com/Adeoye-J/rest_countries_api",
+            "cover_image": "/images/Rest_Countries_API_Edited.png"
+        },
+        {
+            "title" : "Online BookStore",
+            "demo_link": "https://v-book-one.vercel.app/",
+            "repository_link": "https://github.com/Adeoye-J/VBook",
+            "cover_image": "/images/VBook_Edited.png"
+        },
+        {
+            "title" : "Travel and Tour",
+            "demo_link": "https://tratour.vercel.app/",
+            "repository_link": "https://github.com/Adeoye-J/TraTour",
+            "cover_image": "/images/Tratour_Edited.png"
+        },
+        {
+            "title" : "",
+            "demo_link": "",
+            "repository_link": "",
+            "cover_image": ""
+        }
+    ]
+}

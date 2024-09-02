@@ -1,1 +1,61 @@
-/*# sourceMappingURL=projects.css.map */
+.projects-container {
+  background-image: url("/public/images/background-blue.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  justify-content: center;
+}
+.projects-container .projects-content {
+  width: 90%;
+  margin-block: 1rem;
+}
+.projects-container .projects-content .projects-hero {
+  gap: 2rem;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.projects-container .projects-content .projects-hero .projects-heading {
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.projects-container .projects-content .projects-hero .projects-heading h1 {
+  font-size: 3.2rem;
+  color: #fff;
+}
+@media screen and (max-width: 950px) {
+  .projects-container .projects-content .projects-hero .projects-heading h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+.projects-container .projects-content .projects-hero .projects-heading p {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #fff;
+}
+.projects-container .projects-content .projects-hero .image-section {
+  width: 450px;
+  height: 450px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: #00f;
+}
+.projects-container .projects-content .projects-hero .image-section img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.projects-container .projects-content .project-details {
+  flex-direction: column;
+  gap: 2rem;
+}
+.projects-container .projects-content .project-details .individual-section h2 {
+  font-size: 1.4rem;
+  margin-block: 2rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #fff;
+}/*# sourceMappingURL=projects.css.map */

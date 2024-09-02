@@ -30,22 +30,45 @@ const Skills = () => {
               <li>Computer Skills (5yrs+) - Word, Excel, Powerpoint, etc</li>
               <li>Writing (4yrs+) - Standard and Professional</li>
               <li>Tutoring (4yrs+) - STEM Courses</li>
+              <li>Network Engineer (2yrs+)</li>
+              <li>Web Development (4yrs+)</li>
               <li>Communication Skills</li>
+              <li>Problem-Solving</li>
             </ul>
           }
           {
             selectedSkill === "potential" && 
-            <ul className='skills flex'>
-              {/* <li>Front End Web Development (Dominant)- </li> */}
-              <li>HTML (4yrs +) <FaHtml5 /></li>
-              <li>CSS (3yrs +) <FaCss3 /></li>
-              <li>JavaScript (2yrs +) <FaHtml5 /></li>
-              <li>Tailwind (1yr +) <FaHtml5 /></li>
-              <li>Bootstrap (1yr +) <FaBootstrap /></li>
-              <li>API (1yr +) <FaHtml5 /></li>
-              <li>React (1yr +) <FaReact /></li>
-              <li>Git/Github (3yrs +) <FaGithub /></li>
-            </ul>
+            <div>
+              <ul className='skills flex'>
+                <li>HTML (4yrs +) <FaHtml5 /></li>
+                <li>CSS (3yrs +) <FaCss3 /></li>
+                <li>JavaScript (2yrs +) <FaHtml5 /></li>
+                <li>Tailwind (1yr +) <FaHtml5 /></li>
+                <li>Bootstrap (1yr +) <FaBootstrap /></li>
+                <li>SCSS (1yr +) <FaHtml5 /></li>
+                <li>API (1yr +) <FaHtml5 /></li>
+                <li>React (1yr +) <FaReact /></li>
+                <li>Git/Github (3yrs +) <FaGithub /></li>
+              </ul>
+              <h2>Others Included: </h2>
+              <ul className='skills flex'>
+                <li>Responsive Design</li>
+                <li>CSS Preprocessors (Sass)</li>
+                <li>Vanilla JavaScript</li>
+                <li>State Management</li>
+                <li>Module Bundlers (Vite)</li>
+                <li>Restful APIs</li>
+                <li>Third-Party APIs like Facebook Graph API</li>
+                <li>Continuous Integration/Continuous Deployment (CI/CD)</li>
+                <li>Web Hosting</li>
+              </ul>
+              <h2>Soft Skills:</h2>
+              <ul className='skills flex'>
+                <li>Communication</li>
+                <li>Collaboration</li>
+                <li>Problem-Solving</li>
+              </ul>
+            </div>
           }
         </div>
 
