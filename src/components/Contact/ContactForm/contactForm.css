@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 280px;
   width: 100%;
 }
 .form .input-container label {
