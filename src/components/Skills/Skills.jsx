@@ -61,12 +61,21 @@ const Skills = () => {
                 <li>Third-Party APIs like Facebook Graph API</li>
                 <li>Continuous Integration/Continuous Deployment (CI/CD)</li>
                 <li>Web Hosting</li>
+                <li>Testing/Debugging</li>
               </ul>
               <h2>Soft Skills:</h2>
               <ul className='skills flex'>
-                <li>Communication</li>
+                <li>Effective communication</li>
                 <li>Collaboration</li>
                 <li>Problem-Solving</li>
+                <li>Attention to detail</li>
+                <li>Time management</li>
+                <li>Adaptability</li>
+                <li>Teamwork</li>
+                <li>Self-motivation</li>
+                <li>Willingness to learn</li>
+                <li>Critical thinking</li>
+                <li>Patience</li>
               </ul>
             </div>
           }
