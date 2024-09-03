@@ -13,7 +13,7 @@
         .skills-hero {
             gap: 2rem;
             justify-content: space-between;
-            padding-bottom: 1rem;
+            margin-block: 1rem;
 
             .skills-heading {
                 flex-direction: column;
@@ -74,6 +74,7 @@
         .skills-details {
             flex-direction: column;
             gap: 2rem;
+            margin-bottom: 1rem;
             
             .skills-title {
                 width: 100%;

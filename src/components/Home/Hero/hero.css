@@ -3,6 +3,8 @@
   min-height: 90vh;
   justify-content: center;
   background-image: url("/public/images/background-blue.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .hero-container .hero-content {
   position: relative;

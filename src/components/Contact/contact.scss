@@ -4,6 +4,9 @@
     justify-content: center;
     width: 100%;
     padding-block: 1rem;
+    background-image: url("/public/images/background-blue.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     
     .contact-content {
         display: flex;

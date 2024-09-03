@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom'
 import {RiMenu3Fill, RiCloseFill} from "react-icons/ri"
 import "./navBar.css"
 
-const Menu = ({selectedMenu, setSelectedMenu}) => {
+const Menu = ({selectedMenu, setSelectedMenu, setShowMobileMenu}) => {
 
     const handleClick = (menuName) => {
         setSelectedMenu(menuName)
+        setShowMobileMenu(false)
     }
 
     return(
@@ -33,13 +34,13 @@ const NavBar = () => {
             </div>
 
             <div className="menu-container">
-                <Menu selectedMenu={selectedMenu} setSelectedMenu={setSelectedMenu} />
+                <Menu selectedMenu={selectedMenu} setSelectedMenu={setSelectedMenu} setShowMobileMenu={setShowMobileMenu} />
             </div>
             
             {
                 showMobileMenu &&
                 <div className="mobile-container">
-                    <Menu selectedMenu={selectedMenu} setSelectedMenu={setSelectedMenu} />
+                    <Menu selectedMenu={selectedMenu} setSelectedMenu={setSelectedMenu} setShowMobileMenu={setShowMobileMenu} />
 
                     <div className="icon-con">
                         <RiCloseFill onClick={() =>setShowMobileMenu(false)} className='icon' />

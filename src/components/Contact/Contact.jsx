@@ -20,7 +20,7 @@ const Contact = () => {
                         <Link target='_blank' to={"https://x.com/bankolejeremia6"}><FaTwitter className='icon' /></Link>
                     </div>
                     <div className="icon-con">
-                        <FaLinkedin className='icon' />
+                        <Link target='_blank' to={"https://www.linkedin.com/in/jeremiah-bankole"}><FaLinkedin className='icon' /></Link>
                     </div>
                     <div className="icon-con">
                         <a target='_blank' href="mailto:bankolejeremiahadeoye@gmail.com"><FaEnvelope className='icon' /></a>

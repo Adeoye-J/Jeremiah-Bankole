@@ -1,7 +1,7 @@
 import React from 'react'
 import "./hero.css"
 import { Link } from 'react-router-dom'
-import {FaGithub, FaWhatsapp, FaTwitter, FaLinkedin, FaEnvelope} from "react-icons/fa"
+import {FaGithub, FaTwitter, FaLinkedin, FaEnvelope} from "react-icons/fa"
 
 const Hero = () => {
   return (
@@ -29,7 +29,7 @@ const Hero = () => {
                 <Link target='_blank' to={"https://x.com/bankolejeremia6"}><FaTwitter className='icon' /></Link>
               </div>
               <div className="icon-con">
-                <FaLinkedin className='icon' />
+                <Link target='_blank' to={"https://www.linkedin.com/in/jeremiah-bankole"}><FaLinkedin className='icon' /></Link>
               </div>
               <div className="icon-con">
                 <a target='_blank' href="mailto:bankolejeremiahadeoye@gmail.com"><FaEnvelope className='icon' /></a>

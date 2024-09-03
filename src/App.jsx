@@ -5,7 +5,7 @@ import Home from "./components/Home/Home"
 import Skills from "./components/Skills/Skills"
 import Projects from "./components/Projects/Projects"
 import Contact from "./components/Contact/Contact"
-// import { useState } from 'react'
+import Footer from "./containers/Footer/Footer"
 import './App.css'
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact-me" element={<Contact />} />
       </Routes>
+      <Footer />
     </>
   )
 }
