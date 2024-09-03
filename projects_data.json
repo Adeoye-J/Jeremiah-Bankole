@@ -46,10 +46,10 @@
             "cover_image": "/images/Tratour_Edited.png"
         },
         {
-            "title" : "",
+            "title" : "Blog Page",
             "demo_link": "",
             "repository_link": "",
-            "cover_image": ""
+            "cover_image": "/images/work-in-progress.jpg"
         }
     ]
 }

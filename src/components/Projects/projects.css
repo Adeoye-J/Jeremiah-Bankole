@@ -18,21 +18,33 @@
   flex-direction: column;
   gap: 1rem;
   align-items: flex-start;
+  justify-content: center;
 }
 .projects-container .projects-content .projects-hero .projects-heading h1 {
+  width: 100%;
   font-size: 3.2rem;
   color: #fff;
-}
-@media screen and (max-width: 950px) {
-  .projects-container .projects-content .projects-hero .projects-heading h1 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
 }
 .projects-container .projects-content .projects-hero .projects-heading p {
   font-size: 1.5rem;
   font-style: italic;
   color: #fff;
+}
+@media screen and (max-width: 1045px) {
+  .projects-container .projects-content .projects-hero .projects-heading h1 {
+    font-size: 2.5rem;
+  }
+  .projects-container .projects-content .projects-hero .projects-heading p {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 930px) {
+  .projects-container .projects-content .projects-hero .projects-heading h1 {
+    font-size: 2rem;
+  }
+  .projects-container .projects-content .projects-hero .projects-heading p {
+    font-size: 1.1rem;
+  }
 }
 .projects-container .projects-content .projects-hero .image-section {
   width: 450px;
@@ -48,14 +60,30 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media screen and (max-width: 930px) {
+  .projects-container .projects-content .projects-hero .image-section {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .projects-container .projects-content .projects-hero {
+    flex-direction: column;
+  }
+  .projects-container .projects-content .projects-hero .projects-heading {
+    text-align: center;
+  }
+}
 .projects-container .projects-content .project-details {
   flex-direction: column;
   gap: 2rem;
 }
-.projects-container .projects-content .project-details .individual-section h2 {
+.projects-container .projects-content .project-details .individual-section .project-title {
+  display: inline-block;
   font-size: 1.4rem;
   margin-block: 2rem;
   font-weight: 600;
   font-style: italic;
   color: #fff;
+  border-bottom: 2px solid #fff;
 }/*# sourceMappingURL=projects.css.map */

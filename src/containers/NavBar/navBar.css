@@ -11,6 +11,9 @@
   justify-content: space-between;
   height: 70px;
 }
+.navbar-container .navbar-content .logo .logo-text {
+  color: #fff;
+}
 .navbar-container .navbar-content .logo h1 {
   font-size: 2rem;
   cursor: pointer;

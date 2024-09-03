@@ -14,7 +14,7 @@ const Menu = ({selectedMenu, setSelectedMenu}) => {
             <Link className='list-item' to={"/home"}><li className={`${selectedMenu === "About Me" && "underline"}`} onClick={() => handleClick("About Me")}>About Me</li></Link>
             <Link className='list-item' to={"/skills"}><li className={`${selectedMenu === "Skills" && "underline"}`} onClick={() => handleClick("Skills")}>Skills</li></Link>
             <Link className='list-item' to={"/projects"}><li className={`${selectedMenu === "Projects" && "underline"}`} onClick={() => handleClick("Projects")}>Projects</li></Link>
-            <Link className='list-item' to={"/"}><li className={`${selectedMenu === "Contact Me" && "underline"}`} onClick={() => handleClick("Contact Me")}>Contact Me</li></Link>
+            <Link className='list-item' to={"/contact-me"}><li className={`${selectedMenu === "Contact Me" && "underline"}`} onClick={() => handleClick("Contact Me")}>Contact Me</li></Link>
         </ul>
     )
 }
@@ -29,7 +29,7 @@ const NavBar = () => {
     <div className='navbar-container flex'>
         <div className="navbar-content flex">
             <div className="logo flex">
-                <h1>Jeremiah</h1>
+                <Link className='logo-text' to={"/home"}><h1>Jeremiah</h1></Link>
             </div>
 
             <div className="menu-container">

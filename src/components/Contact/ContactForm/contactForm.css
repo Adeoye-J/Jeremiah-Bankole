@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+.form .input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.form .input-container label {
+  display: none;
+}
+.form .input-container input {
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #fff;
+  font-size: 1.3rem;
+  padding-inline: 1rem;
+  height: 50px;
+}
+.form .input-container textarea {
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: 2px soliod #fff;
+  height: 240px;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+.form button {
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+  color: blue;
+  transition: all ease 0.5s;
+  padding-inline: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form button:hover {
+  background-color: blue;
+  color: #fff;
+}/*# sourceMappingURL=contactForm.css.map */

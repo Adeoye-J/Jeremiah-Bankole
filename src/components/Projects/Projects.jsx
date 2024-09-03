@@ -1,6 +1,6 @@
 import React from 'react'
 import "./projects.css"
-import data from "../../../projects.json"
+import data from "../../../projects_data.json"
 import ItemList from './ItemList/ItemList'
 
 const Projects = () => {
@@ -18,11 +18,11 @@ const Projects = () => {
           </div>
           <div className="project-details flex">
             <div className="individual-section">
-              <h2>Beginner Projects</h2>
+              <h2 className='project-title'>Beginner Projects</h2>
               <ItemList data={data["beginners"]}/>
             </div>
             <div className="individual-section">
-              <h2>Intermediate Projects</h2>
+              <h2 className='project-title'>Intermediate Projects</h2>
               <ItemList data={data["intermediate"]}/>
             </div>
           </div>

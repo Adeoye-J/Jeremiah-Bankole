@@ -1,6 +1,7 @@
 import React from 'react'
 import "./hero.css"
-import {FaWhatsapp, FaTwitter, FaLinkedin, FaEnvelope} from "react-icons/fa"
+import { Link } from 'react-router-dom'
+import {FaGithub, FaWhatsapp, FaTwitter, FaLinkedin, FaEnvelope} from "react-icons/fa"
 
 const Hero = () => {
   return (
@@ -17,21 +18,21 @@ const Hero = () => {
 
             <div className="action flex">
               <h2>Interested in my projects right away?</h2>
-              <button>Explore Them Here...</button>
+              <Link to={"/projects"}><button>Explore Them Here...</button></Link>
             </div>
 
             <div className="contact-link flex">
               <div className="icon-con">
-                <FaWhatsapp className='icon' />
+                <Link target='_blank' to={"https://github.com/Adeoye-J"}><FaGithub className='icon' /></Link>
               </div>
               <div className="icon-con">
-                <FaTwitter className='icon' />
+                <Link target='_blank' to={"https://x.com/bankolejeremia6"}><FaTwitter className='icon' /></Link>
               </div>
               <div className="icon-con">
                 <FaLinkedin className='icon' />
               </div>
               <div className="icon-con">
-                <FaEnvelope className='icon' />
+                <a target='_blank' href="mailto:jeremiahiasngu@gmail.com"><FaEnvelope className='icon' /></a>
               </div>
             </div>
 
