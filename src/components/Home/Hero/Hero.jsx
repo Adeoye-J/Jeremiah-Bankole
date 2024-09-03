@@ -32,7 +32,7 @@ const Hero = () => {
                 <FaLinkedin className='icon' />
               </div>
               <div className="icon-con">
-                <a target='_blank' href="mailto:jeremiahiasngu@gmail.com"><FaEnvelope className='icon' /></a>
+                <a target='_blank' href="mailto:bankolejeremiahadeoye@gmail.com"><FaEnvelope className='icon' /></a>
               </div>
             </div>
 
