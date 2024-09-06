@@ -6,12 +6,14 @@ import Skills from "./components/Skills/Skills"
 import Projects from "./components/Projects/Projects"
 import Contact from "./components/Contact/Contact"
 import Footer from "./containers/Footer/Footer"
+import { Analytics } from "@vercel/analytics/react"
 import './App.css'
 
 function App() {
 
   return (
     <>
+      <Analytics />
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
