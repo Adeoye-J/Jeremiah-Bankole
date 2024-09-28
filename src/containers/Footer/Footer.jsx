@@ -8,8 +8,8 @@ const Footer = () => {
     <div className='footer-container flex'>
         <div className="footer-content">
             <div className="more-contact-details">
-                <h2><span>Email: </span>Bankolejeremiahadeoye@gmail.com</h2>
-                <h2><span>Phone Number: </span>+234 815-0420-521</h2>
+                {/* <h2><span>Email: </span>Bankolejeremiahadeoye@gmail.com</h2> */}
+                <h2><span>Contact: </span>+234 815-0420-521</h2>
             </div>
 
             <div className="contact-link flex">

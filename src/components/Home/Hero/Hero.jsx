@@ -13,12 +13,12 @@ const Hero = () => {
             <div className="basic-info flex">
               <h3>Hello, I'm</h3>
               <h1>Jeremiah A. Bankole</h1>
-              <h4>Web Developer</h4>
+              <h4>Fronend Web Developer</h4>
             </div>
 
             <div className="action flex">
-              <h2>Interested in my projects right away?</h2>
-              <Link to={"/projects"}><button>Explore Them Here...</button></Link>
+              {/* <h2>Interested in my projects right away?</h2> */}
+              <Link to={"/projects"}><button>Explore Projects</button></Link>
             </div>
 
             <div className="contact-link flex">

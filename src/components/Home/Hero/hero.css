@@ -90,11 +90,8 @@
   gap: 1rem;
 }
 .hero-container .hero-content .text-section .contact-link .icon-con .icon {
-  color: blue;
-  transition: all ease 0.5s;
-}
-.hero-container .hero-content .text-section .contact-link .icon-con .icon:hover {
   color: #fff;
+  transition: all ease 0.5s;
 }
 .hero-container .hero-content span {
   position: absolute;

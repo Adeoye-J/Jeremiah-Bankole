@@ -10,7 +10,8 @@
         .more-contact-details {
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            // justify-content: space-between;
+            justify-content: center;
             gap: 1rem;
             margin-bottom: 1rem;
 
@@ -48,12 +49,8 @@
             .icon-con {
 
                 .icon {
-                    color: blue;
+                    color: #fff;
                     transition: all ease .5s;
-
-                    &:hover {
-                        color: #fff;
-                    }
                 }
             }
         }

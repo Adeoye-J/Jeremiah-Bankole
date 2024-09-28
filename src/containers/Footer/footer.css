@@ -10,7 +10,7 @@
 .footer-container .footer-content .more-contact-details {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1rem;
   margin-bottom: 1rem;
 }
@@ -38,9 +38,6 @@
   gap: 1rem;
 }
 .footer-container .footer-content .contact-link .icon-con .icon {
-  color: blue;
-  transition: all ease 0.5s;
-}
-.footer-container .footer-content .contact-link .icon-con .icon:hover {
   color: #fff;
+  transition: all ease 0.5s;
 }/*# sourceMappingURL=footer.css.map */
